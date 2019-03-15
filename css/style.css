@@ -1,0 +1,65 @@
+
+body{
+    background-color:#22252b;
+    font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+.intro-video-button {
+    background: linear-gradient(-120deg,#931f5d,#ca1c59);
+    border: none;
+    border-radius: 3px;
+    padding: 12px;
+    text-transform: uppercase;
+    padding-right: 23px;
+    font-weight: 600;
+    box-shadow: 10px 10px 40px rgba(0,0,0,.4);
+    color:white;
+}
+.navbar{
+    background: linear-gradient(-120deg,#931f5d,#ca1c59) !important;
+}
+
+
+.navbar .navbar-nav>li>a {
+    font-size: 12px;
+    border: 1px solid rgba(240,244,246,.2);
+    border-top-color: rgba(240, 244, 246, 0.2);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgba(240, 244, 246, 0.2);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgba(240, 244, 246, 0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgba(240, 244, 246, 0.2);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* Bottom Gallery */
+#homepage .homepage-advantages .advantages .item {
+    width: 33%;
+}
+
+#homepage .homepage-advantages .advantages .item {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    transition: transform .1s cubic-bezier(0,.64,.31,1),background-color .1s cubic-bezier(0,.64,.31,1);
+    z-index: 10;
+}
+
+/* MODAL */
+.modal-header{
+   
+}
