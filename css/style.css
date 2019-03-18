@@ -19,7 +19,7 @@ body{
 }
 
 
-.navbar .navbar-nav>li>a {
+.nav>li>a {
     font-size: 12px;
     border: 1px solid rgba(240,244,246,.2);
     border-top-color: rgba(240, 244, 246, 0.2);
@@ -41,6 +41,17 @@ body{
     border-image-repeat: initial;
     padding-top: 6px;
     padding-bottom: 6px;
+    color:white !important;
+    padding-right: 23px;
+    padding-left: 23px;
+    font-weight: 600;
+    box-shadow: 10px 10px 40px rgba(0,0,0,.4);
+    cursor: pointer;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
 }
 
 /* Bottom Gallery */
@@ -62,4 +73,7 @@ body{
 /* MODAL */
 .modal-header{
    
+}
+.row1{
+    background-image: url("../assets/images/wave-2105989_1920.png");
 }
